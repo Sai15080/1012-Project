@@ -1,0 +1,113 @@
+* {
+    display: center;
+    justify-content: center;
+    align-items: center;
+    overflow:auto;
+}
+
+body {
+
+    background-color:rgb(31, 31, 31);
+    padding:10px;
+    
+}
+
+header {
+align-content:center;
+border:1px;
+border-style:solid;
+border-color:rgb(202, 202, 202);
+background-color:black;
+height:95px;
+width:95%;
+margin-bottom:50px;
+padding:35px;
+float:center;
+
+
+
+}
+
+button {
+
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+
+#darkLight {
+   
+    border:1px;
+    border-style:solid;
+    border-color:rgb(204, 204, 204);
+    background-color:rgb(190, 190, 190);
+    height:50px;
+    width:170px;
+    margin:5px;
+    padding:5px;
+    float:left;
+    
+    
+}
+
+
+
+#gridList {
+
+    border:1px;
+    border-style:solid;
+    border-color:rgb(204, 204, 204);
+    background-color:rgb(190, 190, 190);
+    height:50px;
+    width:150px;
+    margin:5px;
+    padding:5px;
+    float:right;
+
+}
+
+#content {
+
+    border:1px;
+    border-style:solid;
+    border-color:rgb(204, 204, 204);
+    background-color:rgb(48, 48, 48);
+    height:400px;
+    width:92%;
+    padding:50px;
+    margin:10px;
+    float:center;
+
+
+}
+
+.entryType {
+    
+    border:1px;
+    border-style:solid;
+    border-color:rgb(204, 204, 204);
+    border-radius:2px;
+    background-color:rgb(27, 27, 27);
+    margin:25px;
+    padding:25px;
+    text-align:center;
+    font-size:30px;
+    overflow:auto;
+    color:rgb(204, 204, 204);
+
+
+
+}
+
+
+
+footer {
+
+    border-top:1px;
+    border-top-style:solid;
+    border-top-color:rgb(204,204,204);
+    margin:10px;
+    padding:10px;
+    
+}
+

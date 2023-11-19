@@ -13,11 +13,11 @@ function theQuestion() {
         var newPassword = prompt("What Would You Like Your New Password to Be: ");
         var secondTime = prompt("Please Type in Your new Password Again: ");
 
-        while (newPassword !== secondTime) {
+        if (newPassword !== secondTime) {
 
             alert("Your Passwords do not Match");
-            prompt("What Would You Like Your New Password to Be: ");
-            prompt("Please Type in Your new Password Again: ");
+            var newPassword = prompt("What Would You Like Your New Password to Be: ");
+            var secondTime = prompt("Please Type in Your new Password Again: ");
 
         }
             alert("Congratulations, Your new Password is Now Set!");

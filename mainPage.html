@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title> Diary Home Page</title>
+    <link  rel="stylesheet" type="text/css" href="dark.css" title="style"/>
+    <script href="mainPage.js"></script>
+</head>
+
+<body>
+    
+    <header> 
+        <div id="darkLight">
+        <button onclick="changeSheet(dark.css)" >Dark Mode </button>
+        <button onclick="changeSheet(light.css)" >light Mode</button>
+        </div>
+
+        
+
+        <div id="gridList">
+        <button onclick="changeSheet(grid.css)" >Grid View </button>
+        <button onclick="changeSheet(list.css)" >ListView </button>
+        </div>
+
+    </header>
+
+    <div id="content">
+
+    
+
+        <div onclick="entryType()" class="entryType">
+            School
+        </div>
+
+        <div onclick="entryType()" class="entryType">
+            Work
+        </div>
+
+        <div onclick="entryType()" class="entryType">
+            Hobbies
+        </div>
+
+        <div onclick="entryType()" class="entryType">
+            Fitness
+        </div>
+
+        <div onclick="entryType()" class="entryType">
+            Cooking
+        </div>
+
+        <div onclick="entryType()" class="entryType">
+             Miscellaneous
+        </div>
+
+
+    </div>
+
+    <footer> 
+        <button onclick="logOut()" id="logOut"> Log Out</button>
+    </footer>
+
+    
+
+    
+
+
+</body>
+
+
+
+</html>

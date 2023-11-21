@@ -2,18 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
     <title> Diary Home Page</title>
-    <link  rel="stylesheet" type="text/css" href="dark.css" title="style"/>
-    <script href="mainPage.js"></script>
+    <link  id="theme"  rel="stylesheet" type="text/css" href="mainPage.css"/>
+    
+    <script src="main_page.js"></script>
 </head>
 
 <body>
     
     <header> 
         <div id="darkLight">
-        <button onclick="changeSheet(dark.css)" >Dark Mode </button>
-        <button onclick="changeSheet(light.css)" >light Mode</button>
+        <button onclick="toggleTheme('dark.css')"  >Dark Mode </button>
+        <button onclick="toggleTheme('light.css')" >light Mode</button>
         </div>
 
         
@@ -29,29 +30,29 @@
 
     
 
-        <div onclick="entryType()" class="entryType">
-            School
-        </div>
+        <div   class="entryType"> 
+            <button onclick="entryT()" class="entryT"> School</button>
+        </div> 
 
-        <div onclick="entryType()" class="entryType">
-            Work
-        </div>
+         <div  class="entryType" > 
+            <button onclick="entryT()" class="entryT"> Work</button>
+         </div> 
 
-        <div onclick="entryType()" class="entryType">
-            Hobbies
-        </div>
+        <div  class="entryType">
+            <button onclick="entryT()" class="entryT"> Hobbies </button>
+         </div> 
 
-        <div onclick="entryType()" class="entryType">
-            Fitness
-        </div>
+         <div  class="entryType2"> 
+            <button onclick="entryT()" class="entryT2"> Fitness </button> 
+        </div> 
 
-        <div onclick="entryType()" class="entryType">
-            Cooking
-        </div>
+         <div  class="entryType2"> 
+           <button onclick="entryT()" class="entryT2"> Cooking </button>
+         </div> 
 
-        <div onclick="entryType()" class="entryType">
-             Miscellaneous
-        </div>
+         <div  class="entryType2"> 
+            <button onclick="entryT()" class="entryT2"> Miscellaneous</button>
+         </div> 
 
 
     </div>

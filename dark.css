@@ -17,7 +17,7 @@ align-content:center;
 border:1px;
 border-style:solid;
 border-color:rgb(202, 202, 202);
-background-color:black;
+background-color:rgb(22, 22, 22);
 height:95px;
 width:95%;
 margin-bottom:50px;
@@ -81,23 +81,54 @@ button {
 
 }
 
-.entryType {
+.entryType,.entryType2 {
     
     border:1px;
     border-style:solid;
     border-color:rgb(204, 204, 204);
     border-radius:2px;
-    background-color:rgb(27, 27, 27);
-    margin:25px;
-    padding:25px;
+    background-color:rgb(27, 27, 27); 
     text-align:center;
     font-size:30px;
+    margin:25px;
+    padding:10px;
     overflow:auto;
     color:rgb(204, 204, 204);
 
+}
 
+.entryType:hover, .entryType2:hover {
+
+    scale:110%;
 
 }
+
+
+    
+    
+    
+
+
+button.entryT, button.entryT2 {
+
+    padding-right:400px;
+    padding-left:400px;
+    padding-top:40px;
+    padding-bottom:40px;
+    margin:5px;
+     border:solid;
+    border-color:rgb(27, 27, 27);
+    color:white;
+    background-color:rgb(27, 27, 27);
+    font-size:larger;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+
+
+
+
 
 
 
@@ -110,4 +141,6 @@ footer {
     padding:10px;
     
 }
+
+
 

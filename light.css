@@ -2,12 +2,12 @@
     display: center;
     justify-content: center;
     align-items: center;
-    overflow:auto;
+    
 }
 
 body {
 
-    background-color:rgb(236, 236, 236);
+    background-color:rgb(126, 146, 214);
     padding:10px;
     
 }
@@ -17,9 +17,10 @@ align-content:center;
 border:1px;
 border-style:solid;
 border-color:rgb(0, 0, 0);
-background-color:rgb(145, 145, 145);
+background-color:rgb(223, 231, 255);
+border-radius:10px;
 height:95px;
-width:95%;
+width:96%;
 margin-bottom:50px;
 padding:35px;
 float:center;
@@ -37,32 +38,106 @@ button {
 
 #darkLight {
    
-    border:1px;
-    border-style:solid;
-    border-color:rgb(0, 0, 0);
-    background-color:rgb(255, 255, 255);
-    height:50px;
-    width:170px;
-    margin:5px;
-    padding:5px;
+   
     float:left;
     
-    
 }
+
+#dark {
+
+    padding-right: 15px;
+    padding-left:15px;
+    padding-top:22px;
+    padding-bottom:22px;
+    border:solid;
+    border-radius:45px;
+    border-color:rgb(22, 22, 22);
+    background-color:black;
+    color:white;
+    font-size:large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+ 
+ }
+
+ #dark:hover {
+
+    background-color:rgb(255, 255, 255);
+    border-color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+}
+
+
+#light {
+
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top:22px;
+    padding-bottom:22px;
+    border:solid;
+    border-radius:45px;
+    border-color:rgb(255, 255, 255);
+    background-color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    font-size:large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#light:hover {
+
+    background-color:black;
+    border-color:black;
+    color:rgb(221, 221, 221);
+}
+
 
 
 
 #gridList {
 
-    border:1px;
-    border-style:solid;
-    border-color:rgb(0, 0, 0);
-    background-color:rgb(224, 224, 224);
-    height:50px;
-    width:150px;
-    margin:5px;
-    padding:5px;
     float:right;
+
+}
+
+
+#grid {
+
+    padding: 20px;
+    margin-right:10px;
+    border:solid;
+    border-color:rgb(27, 27, 27);
+    background-color:black;
+    color:white;
+    font-size:large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#grid:hover {
+
+    background-color:rgb(72, 45, 128);
+
+}
+
+#list {
+
+    padding: 20px;
+    margin-left:10px;
+    border:solid;
+    border-color:rgb(27, 27, 27);
+    background-color:black;
+    color:white;
+    font-size:large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+#list:hover {
+
+    background-color:rgb(72, 45, 128);
+    
+
 
 }
 
@@ -71,12 +146,14 @@ button {
     border:1px;
     border-style:solid;
     border-color:rgb(0, 0, 0);
-    background-color:rgb(155, 155, 155);
-    height:700px;
-    width:92%;
+    background-color:rgb(223, 231, 255);
+    opacity:90%;
+    height:800px;
+    width:93%;
     padding:50px;
     margin:10px;
     float:center;
+    overflow:auto;
 
 
 }
@@ -85,9 +162,10 @@ button {
     
     border:1px;
     border-style:solid;
-    border-color:rgb(0, 0, 0);
-    border-radius:2px;
-    background-color:rgb(235, 235, 235); 
+    border-color:rgb(255, 255, 255);
+    border-radius:10px;
+    background-color:rgb(255, 255, 255);
+    opacity:70%;
     text-align:center;
     font-size:30px;
     margin:25px;
@@ -100,7 +178,11 @@ button {
 .entryType:hover, .entryType2:hover {
 
     scale:110%;
-
+    opacity:100%;
+    border-width:2px;
+    border-color:rgb(13, 19, 138);
+    
+    
 }
 
 
@@ -113,18 +195,13 @@ button.entryT, button.entryT2 {
     padding-bottom:40px;
     margin:5px;
      border:solid;
-    border-color:rgb(235, 235, 235);
-    background-color:rgb(235, 235, 235);
+    border-color:rgb(255, 255, 255);
+    background-color:rgb(255, 255, 255);
+     color:rgb(0, 0, 0);
     font-size:larger;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:rgb(0, 0, 0);
+   
 }
-
-
-
-
-
-
 
 
 footer {
@@ -135,5 +212,38 @@ footer {
     margin:10px;
     padding:10px;
     
+}
+
+#logOut  {
+
+    padding:10px;
+    margin:10px;
+    border:solid;
+    border-color:black;
+    background-color:black;
+    color:white;
+    font-size:large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float:left;
+
+
+}
+
+#logOut2 {
+
+    padding:10px;
+    margin:10px;
+    border:solid;
+    border-color:black;
+    background-color:black;
+    color:white;
+    font-size:large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float:right;
+}
+
+#logOut:hover, #logOut2:hover {
+
+    background-color:rgb(72, 45, 128);
 }
 

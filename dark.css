@@ -2,7 +2,7 @@
     display: center;
     justify-content: center;
     align-items: center;
-    overflow:auto;
+    
 }
 
 body {
@@ -16,15 +16,14 @@ header {
 align-content:center;
 border:1px;
 border-style:solid;
-border-color:rgb(202, 202, 202);
+border-color:rgb(138, 138, 138);
 background-color:rgb(22, 22, 22);
+border-radius:10px;
 height:95px;
-width:95%;
+width:96%;
 margin-bottom:50px;
 padding:35px;
 float:center;
-
-
 
 }
 
@@ -37,46 +36,117 @@ button {
 
 #darkLight {
    
-    border:1px;
-    border-style:solid;
-    border-color:rgb(204, 204, 204);
-    background-color:rgb(190, 190, 190);
-    height:50px;
-    width:170px;
-    margin:5px;
-    padding:5px;
-    float:left;
     
+    float:left;
     
 }
 
+#dark {
+
+    padding-right: 15px;
+    padding-left:15px;
+    padding-top:22px;
+    padding-bottom:22px;
+    border:solid;
+    border-radius:45px;
+    border-color:rgb(22, 22, 22);
+    background-color:black;
+    color:white;
+    font-size:large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+ 
+ }
+
+ #dark:hover {
+
+    background-color:rgb(221, 221, 221);
+    color:black;
+}
+
+#light {
+
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top:22px;
+    padding-bottom:22px;
+    border:solid;
+    border-radius:45px;
+    border-color:rgb(22, 22, 22);
+    background-color:rgb(221, 221, 221);
+    color:rgb(0, 0, 0);
+    font-size:large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#light:hover {
+
+    background-color:black;
+    color:rgb(221, 221, 221);
+}
 
 
 #gridList {
 
-    border:1px;
-    border-style:solid;
-    border-color:rgb(204, 204, 204);
-    background-color:rgb(190, 190, 190);
-    height:50px;
-    width:150px;
-    margin:5px;
-    padding:5px;
     float:right;
 
 }
+
+#grid {
+
+    padding: 20px;
+    margin-right:10px;
+    border:solid;
+    border-color:rgb(27, 27, 27);
+    background-color:black;
+    color:white;
+    font-size:large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#grid:hover {
+
+    background-color:rgb(72, 45, 128);
+
+}
+
+#list {
+
+    padding: 20px;
+    margin-left:10px;
+    border:solid;
+    border-color:rgb(27, 27, 27);
+    background-color:black;
+    color:white;
+    font-size:large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+#list:hover {
+
+    background-color:rgb(72, 45, 128);
+
+
+}
+
+
+
 
 #content {
 
     border:1px;
     border-style:solid;
-    border-color:rgb(204, 204, 204);
+    border-color:rgb(48, 48, 48);
     background-color:rgb(48, 48, 48);
-    height:700px;
-    width:92%;
+    height:800px;
+    width:93%;
     padding:50px;
     margin:10px;
     float:center;
+    overflow:auto;
 
 
 }
@@ -85,8 +155,8 @@ button {
     
     border:1px;
     border-style:solid;
-    border-color:rgb(204, 204, 204);
-    border-radius:2px;
+    border-color:rgb(27, 27, 27);
+    border-radius:10px;
     background-color:rgb(27, 27, 27); 
     text-align:center;
     font-size:30px;
@@ -100,13 +170,10 @@ button {
 .entryType:hover, .entryType2:hover {
 
     scale:110%;
+    border-color:rgb(72, 45, 128);
+    border-width:3px;
 
 }
-
-
-    
-    
-    
 
 
 button.entryT, button.entryT2 {
@@ -127,11 +194,6 @@ button.entryT, button.entryT2 {
 
 
 
-
-
-
-
-
 footer {
 
     border-top:1px;
@@ -140,6 +202,40 @@ footer {
     margin:10px;
     padding:10px;
     
+}
+
+#logOut  {
+
+    padding:10px;
+    margin:10px;
+    border:solid;
+    border-color:black;
+    background-color:black;
+    color:white;
+    font-size:large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float:left;
+
+
+}
+
+#logOut2 {
+
+    padding:10px;
+    margin:10px;
+    border:solid;
+    border-color:black;
+    background-color:black;
+    color:white;
+    font-size:large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float:right;
+}
+
+#logOut:hover, #logOut2:hover {
+
+    background-color:rgb(72, 45, 128);
+    border-color:rgb(72, 45, 128);
 }
 
 

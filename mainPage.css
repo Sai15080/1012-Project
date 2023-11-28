@@ -147,40 +147,20 @@ button {
 
 }
 
- .entryType,.entryType2 {
-    
-    border:1px;
-    border-style:solid;
-    border-color:rgb(27, 27, 27);
-    border-radius:10px;
-    background-color:rgb(27, 27, 27); 
-    text-align:center;
-    font-size:30px;
-    margin:25px;
-    padding:10px;
-    overflow:auto;
-    color:rgb(204, 204, 204);
 
-}
-
-
-.entryType:hover, .entryType2:hover {
-
-    scale:110%;
-    border-width:3px;
-    border-color:rgb(72, 45, 128);
-
-}
 
 
  button.entryT, button.entryT2 {
 
-    padding-right:400px;
-    padding-left:400px;
-    padding-top:40px;
-    padding-bottom:40px;
-    margin:5px;
-     border:solid;
+    padding-right:600px;
+    padding-left:600px;
+    padding-top:60px;
+    padding-bottom:60px;
+    margin-left:50px;
+    margin-right:40px;
+    margin-top:10px;
+    margin-bottom:10px;
+    border:solid;
     border-color:rgb(27, 27, 27);
     color:white;
     background-color:rgb(27, 27, 27);
@@ -189,6 +169,12 @@ button {
     
 
 }
+
+button.entryT:hover, button.entryT2:hover {
+
+    scale:112%;
+    border-width:3px;
+    border-color:rgb(72, 45, 128);
 
 
 footer {

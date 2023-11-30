@@ -6,59 +6,47 @@
     <title> Diary Home Page</title>
     <link  id="theme"  rel="stylesheet" type="text/css" href="mainPage.css"/>
     
-    <script src="main_page.js"></script>
+    <script src="mainPage.js"></script>
+
 </head>
 
 <body>
-    
     <header> 
         <div id="darkLight">
-        <button onclick="toggleTheme('dark.css')"  >Dark Mode </button>
-        <button onclick="toggleTheme('light.css')" >light Mode</button>
+            <button onclick="toggleTheme('dark.css')">Dark Mode</button>
+            <button onclick="toggleTheme('light.css')">Light Mode</button>
         </div>
-
         
-
         <div id="gridList">
-        <button onclick="changeSheet(grid.css)" >Grid View </button>
-        <button onclick="changeSheet(list.css)" >ListView </button>
-        </div>
+            <button onclick="toggleView('list.css')"> 
+                <img src="list.png" width="20" height="20">
+            </button>
 
+            <button onclick="toggleView('grid.css')">
+                <img src="grid.png" width="20" height="20">
+            </button>
+        </div>
     </header>
 
     <div id="content">
 
-    
+        <button onclick="entryT()" class="entryT"> School...</button>
 
-       
-            <button onclick="entryT()" class="entryT"> School...</button>
-         
-            <button onclick="entryT()" class="entryT"> Working</button>
-         
-            <button onclick="entryT()" class="entryT"> Hobbies </button>
-         
-            <button onclick="entryT()" class="entryT2"> Fitness!! </button> 
-      
-            <button onclick="entryT()" class="entryT2"> Cooking </button>
-    
-            <button onclick="entryT()" class="entryT2"> Music!!!</button>
-        
+        <button onclick="entryT()" class="entryT"> Working</button>
 
+        <button onclick="entryT()" class="entryT"> Hobbies </button>
+
+        <button onclick="entryT()" class="entryT2"> Fitness!! </button>
+
+        <button onclick="entryT()" class="entryT2"> Cooking </button>
+
+        <button onclick="entryT()" class="entryT2"> Music!!!</button>
 
     </div>
 
     <footer> 
         <button onclick="logOut()" id="logOut"> Log Out</button>
-        <button onclick="logOut()" id=logOut2"> Log Out 2 </button>
+        <button onclick="logOut()" id="logOut2"> Log Out 2 </button>
     </footer>
-
-    
-
-    
-
-
 </body>
-
-
-
 </html>

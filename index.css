@@ -1,9 +1,67 @@
 body {
     font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 50px;
-  }
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('theBackground.jpg');
+    background-size: contain;
+    background-position: center; 
+}
 
-  #diary {
-    display: none;
-  }
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: #333;
+}
+
+#loginForm {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#password {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+button {
+    padding: 8px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+a {
+    display: block;
+    width: 200px;
+    margin: 30px auto; /* Center the link horizontally */
+    text-align: center;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
+
+

@@ -6,7 +6,7 @@ function checkPassword() {
     var thePassword = document.getElementById("password").value;
 
     if (thePassword === storedPassword || thePassword === tempPassword) {
-        window.location.href = "mainPage";
+        window.location.href = "mainPage.html";
     } else {
         document.getElementById("demo").innerHTML = "Incorrect! Please Try Again";
     }
@@ -43,13 +43,13 @@ function resetPassword() {
     alert("Congratulations, Your New Password is Now Set!");
 
     var savePassword = prompt("Would You Like to Save Your Password: ");
-    if (savePassword.toLowerCase() === "yes") {
+    if (savePassword === "yes") {
         alert("Perfect, Your Password is now Saved!");
+
+        window.location.href = "mainPage.html";
+
     } else {
         alert("Great! You are Set to Continue! Please Remember Your Password!");
     }
-
-    window.location.href = "index.html";
     
 }
-

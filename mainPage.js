@@ -1,13 +1,20 @@
-function toggleTheme(value) { 
+function toggleTheme(theme) {
 
-     
-    var sheets = document 
-        .getElementsByTagName('link'); 
+    var themeLink = document.getElementById('theColour');
+    
+    themeLink.setAttribute('href', theme + '.css');
+}
 
-    sheets[0].href = value; 
-} 
+function toggleView(layout) {
+
+    var layoutLink = document.getElementById('theLayout');
+    
+    layoutLink.setAttribute('href', layout + '.css');
+}
 
 function entryT() {
 
     window.location.href = "https://www.yorku.ca/";
+    
 }
+

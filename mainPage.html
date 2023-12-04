@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width" initial-scale="1.0">
     <title> Diary Home Page</title>
     <link  id="theme"  rel="stylesheet" type="text/css" href="mainPage.css"/>
+    <link id="theColour" rel="stylesheet" href="dark.css" type="text/css">
+    <link id="theLayout" rel="stylesheet" href="list.css" type="text/css">
     
     <script src="mainPage.js"></script>
 
@@ -13,16 +15,16 @@
 <body>
     <header> 
         <div id="darkLight">
-            <button onclick="toggleTheme('dark.css')">Dark Mode</button>
-            <button onclick="toggleTheme('light.css')">Light Mode</button>
+            <button onclick="toggleTheme('dark')">Dark Mode</button>
+            <button onclick="toggleTheme('light')">Light Mode</button>
         </div>
         
         <div id="gridList">
-            <button onclick="toggleView('list.css')"> 
+            <button onclick="toggleView('list')"> 
                 <img src="list.png" width="20" height="20">
             </button>
 
-            <button onclick="toggleView('grid.css')">
+            <button onclick="toggleView('grid')">
                 <img src="grid.png" width="20" height="20">
             </button>
         </div>
@@ -50,3 +52,4 @@
     </footer>
 </body>
 </html>
+
